@@ -1,0 +1,31 @@
+.favoriteList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.favoriteItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+  .favoriteItem {
+    width: 300px;
+  }
+}
+.favoriteItem p {
+  margin: 4px 0;
+  font-size: 12px;
+}
